@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .rectangle {
   width: 88%;
-  height: 83vh;
+  height: 92vh;
   background-color: rgb(226, 233, 241);
   border: 2px solid #7dbbfd;
   overflow-y: auto;
@@ -163,4 +163,7 @@
   text-align: center; 
   margin-bottom: 20px; 
   
+}
+.highlight-text {
+  font-size: 1.1em; /* Adjust the size as needed */
 }

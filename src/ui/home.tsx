@@ -88,13 +88,11 @@ const Home: React.FC = () => {
           <img src={selectedImage} alt="Selected Image" className="modal-image" />
         </div>
       )}
-      <div>
-        <div className='process-zalo' onClick={() => handleTitleClick("title")}>
-          Để đặt hàng hãy liên hệ:
-          <a href={urlZalo} className='zalo-btn' target='_blank'>
-            <img src='zaloIcon.png' className='zalo-icon' />
-          </a>
-        </div>
+      <div className='process-zalo' onClick={() => handleTitleClick("title")}>
+      <span className='highlight-text'>Liên hệ zalo để đặt hàng nhanh nhất</span>:
+  <a href={urlZalo} className='zalo-btn' target='_blank'>
+    <img src='zaloIcon.png' className='zalo-icon' />
+  </a>
       </div>
     </div>
   );
